@@ -1,0 +1,9 @@
+beatandshake1=transmit('vierbeat','allfeature');
+beatandshake2=transmit('siebenbeat1','allfeature');
+beatandshake3=transmit('siebenbeat2','allfeature');
+beatandshake4=transmit('sechsbeat','allfeature');
+beatandshake5=transmit('sechsshake','allfeature');
+beatandshake6=transmit('elfshake','allfeature');
+beatandshake7=transmit('dreizehnshake','allfeature');
+beatandshakeall=[beatandshake1;beatandshake2;beatandshake3;beatandshake4;beatandshake5;beatandshake6;beatandshake7];
+save('beatandshakeall.mat','beatandshakeall')

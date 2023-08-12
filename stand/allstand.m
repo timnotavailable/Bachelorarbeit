@@ -1,0 +1,12 @@
+stand1=transmit('achtstand','allfeature');
+stand2=transmit('dreistand','allfeature');
+stand3=transmit('dreizehnstand','allfeature');
+stand4=transmit('dreizehnstand2','allfeature');
+stand5=transmit('einstand','allfeature');
+stand6=transmit('elfstand','allfeature');
+stand7=transmit('funfstand','allfeature');
+stand8=transmit('neunstand','allfeature');
+stand9=transmit('sechsstand','allfeature');
+stand10=transmit('siebenstand','allfeature');
+standall=[stand1;stand2;stand3;stand4;stand5;stand6;stand7;stand8;stand9;stand10];
+save('standall.mat','standall')

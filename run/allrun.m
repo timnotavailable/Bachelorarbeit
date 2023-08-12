@@ -1,0 +1,12 @@
+run1=transmit('dreizehnrun','allfeature');
+run2=transmit('einrun','allfeature');
+run3=transmit('elfrun','allfeature');
+run4=transmit('funfrun1','allfeature');
+run5=transmit('funfrun2','allfeature');
+run6=transmit('sechsrun','allfeature');
+run7=transmit('vierrun1','allfeature');
+run8=transmit('vierrun2','allfeature');
+run9=transmit('vierzehnrun','allfeature');
+run10=transmit('zweirun','allfeature');
+runall=[run1;run2;run3;run4;run5;run6;run7;run8;run9;run10];
+save('runall','runall')
